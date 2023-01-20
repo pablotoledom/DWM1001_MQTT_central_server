@@ -26,7 +26,7 @@ https://www.qorvo.com/products/p/DWM1001C#documents
 - Local Area Network.
 - 2 o more Raspberry Pi 3.
 - Central server (PC or another Raspberry).
-- 8 or more WDM1001 boards (10 is recomended for basic tests).
+- 10 or more WDM1001 boards (12 is minimum recomended for basic scalable environment).
 
 ### Gateway configuration changes (inside Raspberry Pi 3 software). 
 
