@@ -1,0 +1,21 @@
+{
+  "name": "http-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-run-all --parallel startMQTT startHTTP",
+    "startMQTT": "mosquitto -c ./server/config/mosquitto.conf",
+    "startHTTP": "live-server ./frontend"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5"
+  }
+}
