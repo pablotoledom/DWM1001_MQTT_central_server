@@ -1,7 +1,7 @@
 # DWM1001_MQTT_central_server
 MQTT central server and frontend project to scale to multiple gateways
 
-## This project is based in Qorvo/Decawave MDEK1001 developper kit, which include the WDM1001 board for UWB (Ultra Wide Band)
+### This project is based in Qorvo/Decawave MDEK1001 developper kit, which include the WDM1001 board for UWB (Ultra Wide Band)
 
 ### Disclaimer: 
 The frontend has been taken without official permission from the public source code found inside the DRTLS_raspbian_R2.0.img file.
